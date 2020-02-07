@@ -1,6 +1,8 @@
 //
-// Created by Nelson Lin on 2020/2/7.
+// Created by Nelson Lin.
+// The Open Closed Principle
 //
+
 #include <iostream>
 #include <vector>
 
