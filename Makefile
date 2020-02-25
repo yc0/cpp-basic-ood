@@ -4,7 +4,7 @@
 CC :=clang++
 CFLAGS :=-Wall -std=c++17 -O3
 .PHONY: clean
-all: ocp.o dip.o
+all: ocp.o dip.o isp.o lsp.o
 %.o: %.cpp
 	$(CC) $(CFLAGS) $< -o $@
 clean:
